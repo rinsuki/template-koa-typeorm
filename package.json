@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
+    "start": "node dist",
     "typeorm": "node -r ts-node/register -r typeorm/cli /dev/null"
   },
   "devDependencies": {
